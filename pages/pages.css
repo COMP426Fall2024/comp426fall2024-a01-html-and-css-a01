@@ -1,0 +1,224 @@
+body {
+  padding: 25px;
+  background-color: lightgray;
+}
+.main {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.greek-page-title {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left:2cm;
+  text-decoration-line: underline;
+  -webkit-text-fill-color: black;
+  background-color: white;
+  width:fit-content
+}
+.roman-page-title {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left:1cm;
+  text-decoration-line: underline;
+  -webkit-text-fill-color: black;
+  background-color: white;
+  width:fit-content
+}
+.index {
+  background-color: #e6ffff;
+}
+ol {
+  list-style: lower-greek;
+}
+.pre-click {
+  text-decoration-color: green;
+}
+.click-notice {
+  -webkit-text-fill-color: white;
+  text-decoration-line: underline;
+  padding-top: 4mm;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+tr:first-child {
+  background-color: antiquewhite;
+}
+tr:nth-child(3) {
+  background-color: lightblue;
+}
+tr:nth-child(5) {
+  background-color: lightblue;
+}
+tr:nth-child(even) {
+  background-color: #afd0b9;
+}
+.back-button {
+  -webkit-text-fill-color: blue;
+  text-decoration-line: underline;
+}
+table {
+  background-color: #000000;
+  width:fit-content;
+  margin-top:4.1in;
+  padding:1px;
+  border:solid;
+}
+p {
+  width: 2in;
+  text-align:left;
+  text-indent: 12px;
+}
+.description {
+  display: table-cell;
+}
+.hover-answer {
+  border: 1px solid black;
+  width:fit-content;
+  background-color: lightgreen;
+  padding: 2px
+}
+.answer {
+  display: none;
+}
+.hover-answer:hover .default {
+  display: none;
+}
+.hover-answer:hover .answer {
+  display: inline;
+}
+select {
+  margin-top: 12px;
+}
+.quiz {
+  margin-top: 12px;
+  background-color: rgba(255,235, 205, .9);
+  width:fit-content;
+  padding: 10px
+}
+.d1 {
+  margin-left: 4.1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  padding: 10px
+}
+.d2 {
+  padding-left: 1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  height: 3.3cm;
+  padding: 10px;
+  border-left:solid;
+  border-right:solid
+}
+.d3 {
+  padding-left: 1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  padding: 10px
+}
+.r1 {
+  margin-left: 9.4cm;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  padding: 10px
+}
+.r2 {
+  padding-left: 1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  height: 2.9cm;
+  padding: 10px;
+  border-left:solid;
+  border-right:solid
+}
+.r3 {
+  padding-left: 1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  height: 2.9cm;
+  background-color: rgba(255,235, 205, .9);
+  padding: 10px
+}
+.f1 {
+  
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  padding: 10px
+}
+.f2 {
+  padding-left: 1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  background-color: rgba(255,235, 205, .9);
+  height: 3.3cm;
+  padding: 10px;
+  border-left:solid;
+  border-right:solid
+}
+.f3 {
+  padding-left: 1in;
+  margin-top: 12px;
+  float: left;
+  width: 2in;
+  height: 3.3cm;
+  background-color: rgba(255,235, 205, .9);
+  padding: 10px
+}
+.greek-page-image {
+  width:fit-content;
+  margin-left: 1.2in;
+  border: solid 2px
+}
+.greek-body {
+  background-image: url("https://i.pinimg.com/736x/da/e2/ab/dae2ab85ba612195ad5f49ba2dc8138e.jpg")
+}
+.roman-body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/016/088/464/non_2x/rome-coliseum-vector.jpg");
+}
+.fiction-body {
+  background-image: url("https://preview.redd.it/w3eglu3n30m91.jpg?width=1280&format=pjpg&auto=webp&s=e8d8aa3da93fbc683c1fb455fa32a6b52a349b4f");
+}
+hr {
+  border: solid 1px;
+}
+.roman-page-image {
+  margin-left: 10in;
+}
+.table-page {
+  background-image: url("https://collectionapi.metmuseum.org/api/collection/v1/iiif/45434/134438/main-image");
+}
+.compare-table-header {
+  margin-left: 5.5in;
+}
+.fiction-page-header {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 4.1in;
+  -webkit-text-fill-color: black;
+  background-color: white;
+  width:fit-content
+}
+.fiction-page-image {
+  margin-left:12.7cm;
+  border:solid 2px;
+  width:fit-content
+}
+.index {
+  background-image: url("https://www.shutterstock.com/shutterstock/videos/17781277/thumb/1.jpg?ip=x480");
+}
