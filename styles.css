@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+.header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.headerElement {
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+.headerElement:hover {
+    color: #7BAFD4;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0.8rem;
+    margin: 1.2rem 0;
+    text-indent: 1rem;
+
+}
+
+.shrek {
+    width: 20rem;
+    height: 15rem;;
+}
+
+#top {
+    font-size: 8rem;
+    text-align: center;
+}
+
+.table {
+    padding-top: 2rem;
+    width: 60%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd; 
+    text-align: left; 
+    padding: 8px; 
+    font-size: 1rem; 
+}
+
+.table th {
+    background-color: #4CAF50; 
+    color: #fff;
+    font-size: 1rem;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.table tr:hover {
+    background-color: #ddd; 
+}
+
+.selected {
+    margin-bottom: 5rem;
+}
+
+.information {
+    background-color: #f2f2f2;
+}
+
+.yapping {
+    margin: 1rem 2rem;
+    color: #7BAFD4;
+}
+
+.boarding {
+    gap: 1rem;
+    height: 50%;
+    width: 22%;;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.103);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-bottom: 20rem;
+}
+
+.boarding:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.185);
+}
+
+.big {
+    padding: 2rem;
+}
