@@ -4,51 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Random</title>
+    <title>Part 2</title>
 </head>
 <header>
     <ul class="header">
         <li><a href="index.html" class="headerElement">Main Menu</a></li>
-        <li><a href="info.html" class="headerElement">Story</a></li> 
-        <li><a href="random.html" class="headerElement">Conclusion</a></li> 
+        <li><a href="info.html" class="headerElement">Part 1</a></li> 
+        <li><a href="random.html" class="headerElement">Part 2</a></li> 
     </ul>
 </header>
-<body>
-    <h1 id="top">Random</h1>
-    <p class="text">I'm not sure what to make this about, so I will make this really random while fitting all the requirements</p>
-    <div>
-        <img src="shrek.webp" alt="Image of shrek" class="shrek"/>
-        <p>Here is a picture of my favorite character, Shrek. Below are my rankings of the 3 Shrek movies.</p>
+<body class="information">
+    <h1 id="top">Part 2</h1>
+    <div class="big">
+        <p class="text">Chapter 2</p>
+        <p class="yapping">As Shrek began registering for classes, Shrek decided that he would study
+            computer science. Fortunately, Shrek learned some basic programming and DSA skills from the 
+            Fairy Godmother, so he was able to place out of COMP 110 and COMP 210. Shrek registered for 
+            some more advanced courses like COMP 211 and COMP 301.
+        </p>
+
+        <p class="yapping">At first, the other students and classmates were startled to see an ogre. 
+            Shrek was even interviewed by the Daily Tar Heel and made it to the front page of the newspaper. 
+            Word of Shrek's adventures and academic pursuits spread far and wide, drawing visitors and scholars. 
+            They came seeking the ogre who broke stereotypes and bridged worlds, who found a second home among humans 
+            while enriching their community with his diversity and strength of character.
+            Days turned into weeks, and weeks turned into months. Through his time abroad,
+            Shrek was able to check off everything on his list. He was even able to win the student lottery
+            and get a ticket to the Duke vs. UNC basketball game. After UNC won, Shrek even rushed 
+            Franklin Street. Other people across Chapel Hill were shocked to see an ogre amongst them, but 
+            nobody cared because UNC had just beat Duke. 
+        </p>
+
+        <p class="yapping"> On Shrek's 
+            final day at UNC, he said goodbye to all his friends. He also bought lots of overpriced 
+            merchandise from the student stores to bring back home. As Shrek's time abroad has come to an end, 
+            Shrek was excited to go back home. Although he had an 
+            amazing time at UNC, he missed his swamp and Donkey. Fortunately for Shrek, he really liked 
+            computer science and decided to bring a PC to his swamp and do more coding from there. As he boarded
+            the plane back to the Far Far Away, he smiled and wondered what adventures he would experience next.
+        </p>
+
+        <img class="boarding" src="boarding-pass.pdf" alt="Boarding pass image"/>
+
+        <table class="table">
+            <tr>
+                <th>Things Shrek wants to do at UNC</th>
+                <th>Priority</th>
+            </tr>
+            <tr>
+                <td>Watch a UNC vs. Duke game</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Drink from the Old Well</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Take a picture in front of the Bell Tower</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Attend HackNC</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Eat at Chase Dining Hall</td>
+                <td>5</td>
+            </tr>
+        </table>
+        <p class="text">Have you done any of these things?</p>
+        <select class="selected">
+            <option value="0">None</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="2">Three</option>
+            <option value="4">Four</option>
+            <option value="5">All</option>
+        </select>
+        
     </div>
-    <table class="table">
-        <tr>
-            <th>Movies</th>
-            <th>My ranking</th>
-        </tr>
-        <tr>
-            <td>Shrek</td>
-            <td>S tier</td>
-        </tr>
-        <tr>
-            <td>Shrek 2</td>
-            <td>S tier</td>
-        </tr>
-        <tr>
-            <td>Shrek 3</td>
-            <td>S tier</td>
-        </tr>
-        <tr>
-            <td>Shrek Forever After</td>
-            <td>S tier</td>
-        </tr>
-    </table>
-    <p class="text">What is your favorite Shrek movie?</p>
-    <select class="selected">
-        <option value="shrek">Shrek</option>
-        <option value="shrek2">Shrek 2</option>
-        <option value="shrek3">Shrek 3</option>
-        <option value="shrek4">Shrek Forever After </option>
-    </select>
-    
 </body>
 </html>
