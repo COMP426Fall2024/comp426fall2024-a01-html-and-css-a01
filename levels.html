@@ -8,12 +8,12 @@
     <script>
       // Function to change the image and description based on the selected evolution stage
       function changeImage() {
-        var selectElement = document.getElementById("evolution-select"); // Get the select element
-        var selectedValue = selectElement.value; // Get the selected value (charmander, charmeleon, or charizard)
-        var imageElement = document.getElementById("evolution-image"); // Get the image element
-        var descriptionElement = document.getElementById("evolution-description"); // Get the description element
+        var selectElement = document.getElementById("evolution-select"); 
+        var selectedValue = selectElement.value; 
+        var imageElement = document.getElementById("evolution-image"); 
+        var descriptionElement = document.getElementById("evolution-description"); 
 
-        // Change the image and description based on the selected value
+        
         if (selectedValue === "charmander") {
           imageElement.src = "images/Charmander.png";
           imageElement.alt = "Charmander Image";
@@ -41,11 +41,10 @@
 
     <h1>Charizard Evolution Stages</h1>
 
-    <!-- Image of the selected Pokémon evolution -->
-    <center>
+    
       <img id="evolution-image" src="images/Charizarddd.webp" alt="Charizard Image">
 
-      <!-- Select dropdown for Charizard's evolution stages -->
+      
       <div class="evolution-select">
         <h3>Select Charizard's Evolution Stage:</h3>
         <select id="evolution-select" onchange="changeImage()">
@@ -55,10 +54,9 @@
         </select>
       </div>
 
-    <!-- Description of the selected evolution stage -->
+    
     <div class="description" id="evolution-description">
       <strong>Charizard:</strong> The final stage of Charmander’s evolution. Charizard is a mighty dragon-like Pokémon capable of flying and breathing intense flames. Despite its fierce appearance, it is loyal and fights valiantly in battles.
     </div>
-</center>
   </body>
 </html>
