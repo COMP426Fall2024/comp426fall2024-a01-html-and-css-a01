@@ -31,12 +31,10 @@
             function revealDiv() {
                 const selectedOption = document.getElementById('culturalSelect').value;
                 
-                // Hide all divs initially
                 document.getElementById('indigenousDiv').style.display = "none";
                 document.getElementById('symbolismDiv').style.display = "none";
                 document.getElementById('impactDiv').style.display = "none";
-                
-                // Show the relevant div based on the selection
+
                 if (selectedOption === "Indigenous Roots") {
                 document.getElementById('indigenousDiv').style.display = "block";
                 } else if (selectedOption === "Symbolism") {
