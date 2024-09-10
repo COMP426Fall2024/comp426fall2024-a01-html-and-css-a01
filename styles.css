@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image for home page */
+#home-page {
+    background-image: url('journey-to-the-west-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(44, 62, 80, 0.8);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Story Page Styles */
+#story-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f5;
+}
+/* Layout for image and text */
+.character-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 0;
+}
+
+.character-content img {
+    max-width: 40%;  /* Image size */
+    height: auto;
+    margin-right: 30px;  /* Space between image and text */
+}
+
+.character-info {
+    max-width: 50%;
+    font-family: 'Pacifico', cursive;  /* Whimsical font */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Table Styles */
+.character-info table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.character-info table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.character-info th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+/* Center the image and make it smaller */
+.centered-image {
+    max-width: 50%; /* Image is smaller */
+    height: auto;
+    margin-bottom: 20px;
+}
+.centered-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;  /* Adjust as needed */
+    height: auto;
+}
+/* Whimsical font for the text */
+.summary h2, .summary p {
+    font-family: 'Pacifico', cursive; /* Whimsical font */
+    color: #333;
+}
+
+/* Adjusting font size for readability */
+.summary h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
