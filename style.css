@@ -1,0 +1,46 @@
+
+body {
+    background: #ffae00;
+    font-size: 16pt;
+}
+
+hr#thehorizontalbreak {
+    border: thin solid black
+}
+
+div.mainframe {
+    border: thin solid black;
+}
+
+p.regulartext {
+    font-family: cursive;
+    color: black;
+}
+
+h1.mainheader {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div ul{
+    font-style: italic;
+}
+
+td:hover {
+    font-weight: bold;
+}
+
+img#prometheus {
+    width:initial;
+    height:initial;
+}
+
+label {
+    font-family: cursive;
+    color: black;
+}
+
+li:hover{
+    font-weight: bold;
+}
