@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%;
+    background: #606f8a;
+}
+main {
+    background: #606f8a;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF;
+    font-family: 'Rubik';
+    font-size: 12pt;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*-- header --*/
+header{
+    overflow: hidden;
+    background-color:#2c4263;
+    height: 130px;
+}
+
+#top-header{
+    text-align: center;
+    height: 50px;
+    background-color: #2c4263;
+}
+
+#menu{
+    top: 0;
+    right:0;
+    white-space: nowrap;
+    float: right;
+    height: 100%;
+    margin-top: 1em;
+    margin-right: 1em;
+
+}
+
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: 0;
+    padding: 0;
+    background: #2c4263;
+    margin-right: 2em;
+}
+
+#menu li{
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    display: inline-flex;
+    margin: 0em 3em;
+    font-weight: 600;
+}
+
+#menu li a, #menu li{
+    color: #f2d49c;
+    background: #2c4263;
+    text-decoration: none;
+}
+
+#menu li:hover a, #menu li:hover{
+    color: #D2B48C;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    margin-top:21px;
+    margin-left:-30px;
+    width: 130px;
+}
+
+.dropbtn {
+    padding: 1px 2px;
+}
+
+.dropdown-content a{
+    display:block;
+    padding: 5.5px 30px;
+    text-align: left;
+    color: #f2d49c !important;
+}
+.dropdown-content a:hover{
+    border-bottom: 1px dashed #fff;
+    border-top: 1px dashed #fff;
+    color: #D2B48C !important;
+}
+.dropbtn:hover,.submenu:hover .dropdown-content{
+    display:block
+}
+
+.title {
+    margin-left: 1em;
+    color: #f2d49c;
+    font-weight: 900;
+}
+
+/*--- main ---*/
+.mexican h2, .cherokee h2, .american h2{
+    margin: 0;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-weight: 800;
+    color: #f2d49c;
+}
+
+.mexican p, .cherokee p, .american p{
+    margin: 0;
+    padding-left: 5em;
+    padding-top: 2em;
+    width: 90%;
+    line-height: 1.4;
+    color: #D2B48C;
+}
+
+    /*--- intro ---*/
+.intro {
+    background-color: #606f8a;
+    height: 5em;
+    color: #D2B48C;
+}
+
+.intro p{
+    margin: 0;
+    padding-left: 4em;
+    padding-top: 2em;
+    background-color: #606f8a;
+    width: 90%;
+    line-height: 1.4;
+}
+
+    /*--- mexican ---*/
+.mexican {
+    background-color: #606f8a;
+    height: 10em;
+}
+
+    /*--- cherokee ---*/
+.cherokee {
+    background-color: #606f8a;
+    height: 10em;
+}
+
+/*--- american ---*/
+.american {
+    background-color: #606f8a;
+    height: 15.25em;
+}
+
+/* default-div */
+.default-div h2{
+    margin: 0;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-weight: 800;
+    color: #f2d49c;
+}
+
+.default-div p{
+    margin: 0;
+    padding-left: 5em;
+    padding-top: 2em;
+    width: 90%;
+    line-height: 1.4;
+    color: #D2B48C;
+}
+
+.default-div th {
+    color: #D2B48C;
+}
+
+.bottom {
+    padding-bottom: 50px;
+}
