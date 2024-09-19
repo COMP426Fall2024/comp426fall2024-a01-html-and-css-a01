@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journey to the West</title>
     <link rel="stylesheet" href="styles.css">
-    
-
 </head>
 <body id="home-page">
     <header>
@@ -16,13 +14,24 @@
     </header>
     <nav>
         <ul>
-           
             <li><a href="page1.html">Sun Wukong</a></li>
             <li><a href="page2.html">Tang Sanzang</a></li>
             <li><a href="Page3.html">Zhu Bajie</a></li>
             <li><a href="Page4.html">Sha Wujing</a></li>
             <li><a href="Page5.html">White Dragon Horse</a></li>
         </ul>
+   
+        <form>
+            <label for="character-select">Choose a character:</label>
+            <select id="character-select" onchange="window.location.href=this.value;">
+                <option value="">--Select a character--</option>
+                <option value="page1.html">Sun Wukong</option>
+                <option value="page2.html">Tang Sanzang</option>
+                <option value="Page3.html">Zhu Bajie</option>
+                <option value="Page4.html">Sha Wujing</option>
+                <option value="Page5.html">White Dragon Horse</option>
+            </select>
+        </form>
     </nav>
 </body>
 </html>
