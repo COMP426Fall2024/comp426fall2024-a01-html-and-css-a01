@@ -11,17 +11,17 @@ These pages should describe a mythological character or mythological story. The 
 
 The only real requirements for this assignment are these:
 
-1. There should be a single logical "starting" web page as index.html.
+1. There should be a single logical "starting" web page titled as index.html.
 2. There should be at least 3 pages (your `index.html` page + 2 others). There is no maximum limit of pages, but don't go crazy.
 3. There should be links that navigate between the pages
 4. All of the pages should use the same CSS stylesheet
-5. All of the pages, stylesheets, images, or other resources are commited to this repository.
+5. All of the pages, stylesheets, images, or other resources are committed to this repository.
 
 ### 1.2 HTML (30 points)
 
-The starting, or home page, for this assignment should be titled `index.html`. This is a standard in web development because it allows the server to render it without specify which file you want to view ([why index.html](https://www.lifewire.com/index-html-page-3466505)). This root page will then link to other html pages. These can be named whatever you like. 
+The starting, or home page, for this assignment should be titled `index.html`. This is a standard in web development because it allows the server to render it without specifying which file you want to view ([why index.html](https://www.lifewire.com/index-html-page-3466505)). This root page will then link to other html pages. These can be named whatever you like. 
 
-At a minimum, you HTML pages should have at least one of **each** of the following: 
+At a minimum, your HTML pages should have at least one of **each** of the following: 
 
 1. `<ul>` or `<ol>`.
 2. `<table>` .
@@ -33,7 +33,7 @@ In addition to that, all of your html pages should be valid HTML5 ([html validat
 
 ### 1.3 CSS (30 points)
 
-This is the part of the assignment where you can get creative. Googling examples of css and best practices is a great place to start. Especially for this assignment [w3schools](https://www.w3schools.com/css/default.asp) is going to be your best friend. 
+This is the part of the assignment where you can get creative. Googling examples of CSS and best practices is a great place to start. Especially for this assignment [w3schools](https://www.w3schools.com/css/default.asp) is going to be your best friend. 
 
 At a minimum, your stylesheet should:
 
