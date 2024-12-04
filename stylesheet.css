@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #2a7ae2;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #2a7ae2;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav, ol {
+    background-color: #2a7ae2;
+    padding: 10px;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+ol li {
+    display: inline;
+    margin: 0 15px;
+}
+
+ol li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border: 5px solid #ddd; /* Setting the border */
+    padding: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.special-paragraph {
+    font-family: 'Courier New', monospace;
+    color: #555;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#hercules-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+}
+
+#hercules-table th, #hercules-table td {
+    padding: 12px;
+    border: 2px solid #2a7ae2;
+    text-align: center;
+}
+
+#hercules-table th {
+    background-color: #2a7ae2;
+    color: white;
+}
+
+#hercules-table td {
+    background-color: #f4f4f4;
+}
+
+select {
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+}
+
+footer {
+    background-color: #2a7ae2;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section p {
+    color: #333;
+    font-size: 18px;
+    margin: 15px;
+}
