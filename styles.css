@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+.header {
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem;
+    list-style-type: none;
+    
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.headerElement {
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.headerElement:hover {
+    color: #7BAFD4;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0.8rem;
+    margin: 1.2rem 0;
+    text-indent: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.shrek {
+    width: 20rem;
+    height: 15rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 9px;
+}
+
+.shrek-text {
+    text-align: center;
+    margin-bottom: .2rem;
+}
+
+#top {
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+}
+
+.table {
+    padding-top: 2rem;
+    width: 60%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    
+}
+
+.table th, .table td {
+    border: 1px solid #dddddd; 
+    text-align: left; 
+    padding: 8px; 
+    font-size: 1rem; 
+}
+
+.table th {
+    background-color: #4CAF50; 
+    color: #fff;
+    font-size: 1rem;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+.table tr:hover {
+    background-color: #ddd; 
+}
+
+.selected {
+    margin-bottom: 5rem;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.yapping {
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem 2rem;
+    color: #7BAFD4;
+    font-size: 1.1rem;
+}
+
+.boarding {
+    gap: 1rem;
+    height: 50%;
+    width: 22%;;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.103);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.boarding:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.185);
+}
+
+.big {
+    padding: 2rem;
+}
+
+select {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 7px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.split {
+    display: flex;
+}
